@@ -2,10 +2,8 @@
 
 BookBot is my first [Boot.dev](https://www.boot.dev) project!
 
-To use the bot, run main.py with the additional argument of the file path to the book file.
-For example, "python3 main.py books/frankenstein.txt"
-
-In that example "python3 main.py" tells the computer to run main.py using python.
-And "books/frankenstein.txt" is the file path to a book.
-
-boo
+In order to use this bot, you'll need to get a bit of text, like a book and place it in the repo. Then run this line:
+```
+python3 main.py <pathToText>
+```
+And that should write out the frequencies of each character in that piece of text!
